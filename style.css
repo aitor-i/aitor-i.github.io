@@ -1,0 +1,28 @@
+:root {
+  --green: #639a67;
+  --deep-green: #2b580c;
+  --light-green: #d8ebb5;
+  --light-brown: #d9bf77;
+}
+
+body {
+  padding: 10px;
+  border-top: solid var(--deep-green) 15px;
+}
+
+h1 {
+  text-align: center;
+  color: var(--green);
+}
+
+h2 {
+  text-align: center;
+  color: var(--green);
+}
+h3 {
+  color: var(--green);
+}
+
+p {
+  text-align: justify;
+}
