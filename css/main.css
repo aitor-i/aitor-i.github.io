@@ -240,6 +240,9 @@
 .projects_item:hover .projects__btn {
   opacity: 1;
 }
+.projects_item:hover .projects__name {
+  color: #272727;
+}
 .projects__btns {
   position: absolute;
   top: 0;
@@ -261,7 +264,7 @@
 }
 .projects__name {
   font-size: 2rem;
-  color: #fff;
+  color: #ff652f;
 }
 .projects .social-icons {
   display: flex;

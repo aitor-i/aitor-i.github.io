@@ -59,6 +59,9 @@
       .projects__btn {
         opacity: 1;
       }
+      .projects__name {
+        color: $primary-color;
+      }
     }
   }
   &__btns {
@@ -76,6 +79,7 @@
   &__btn {
     opacity: 0;
     color: set-text-color($secondary-color);
+
     @include transition-ease;
 
     &:hover {
@@ -85,7 +89,7 @@
 
   &__name {
     font-size: 2rem;
-    color: set-text-color($primary-color);
+    color: $secondary-color;
   }
 
   .social-icons {
