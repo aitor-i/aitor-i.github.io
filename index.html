@@ -1,68 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="./style.css" />
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/d08a598bb9.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Aitor Ibarra</title>
   </head>
 
   <body>
-    <div class="left-side">
-      <div class="title">
-        <h1>Aitor Ibarra</h1>
-        <h2>Chemist</h2>
+    <head>
+      <div class="menu-btn">
+        <span class="menu-btn__burger"></span>
       </div>
 
-      <div class="profile">
-        <h3>Profile</h3>
-        <p>
-          Chemistry bachelor with well knowledge of polymers science. Autodidact
-          programmer proactive with own initiative. Eager to learn and continue
-          forming.
-        </p>
-      </div>
-
-      <div class="education">
-        <h3>Education</h3>
-        <h4>Chemistry bachelor</h4>
-        <p>UPV/EHU Donostia/San Sebastian</p>
-        <ul>
-          <li>Polymer science</li>
-          <li>HPLC</li>
-          <li>Gas chromatography (GC)</li>
-          <li>
-            TFG: Hidrogeno loturen eragina latex itsasgarrietan ( Effect of
-            hydrogen bonding on latex adhesives)
+      <nav class="nav">
+        <ul class="menu-nav">
+          <li class="menu-nav__item active">
+            <a href="index.html" class="menu-nav__link">Home</a>
+          </li>
+          <li class="menu-nav__item">
+            <a href="about.html" class="menu-nav__link">About Me</a>
+          </li>
+          <li class="menu-nav__item">
+            <a href="projects.html" class="menu-nav__link">My Projects</a>
+          </li>
+          <li class="menu-nav__item">
+            <a href="contact.html" class="menu-nav__link">Contact Me</a>
           </li>
         </ul>
-      </div>
-      <div class="skills">
-        <h3>Skills</h3>
-        <p>Predici (software)</p>
-        <p>Python</p>
-        <p>R statistical computing</p>
-        <p>Office</p>
-      </div>
-      <div class="languages">
-        <h3>Languages</h3>
-        <p>Basque</p>
-        <p>Spanish</p>
-        <p>English</p>
-      </div>
-    </div>
+      </nav>
+    </head>
 
-    <div class="right-side">
-      <div class="personal-skills">
-        <h3>Personal skills</h3>
-      </div>
-      <div class="social-media">
-        <h3>Social media</h3>
-        <p>aitoribarra@tutanota.com</p>
-        <a href="">Linkedin</a>
-        <a href="https://github.com/aitor-i">Github</a>
-        <a href="">Infojobs</a>
-      </div>
-    </div>
+    <main>
+      <section class="home">
+        <h2>Hi my name is</h2>
+        <h1 class="home__name">
+          Aitor <span class="home__name-last">Ibarra</span>
+        </h1>
+        <h2>Chemist, Python developer & Photographer</h2>
+
+        <div class="social-icons">
+          <a href="https://linkedin.com/in/aitor-i-5b1b1b1b2">
+            <div class="i fab fa-linkedin fa-2x"></div>
+          </a>
+          <a href="https://github.com/aitor-i">
+            <div class="i fab fa-github fa-2x"></div>
+          </a>
+          <a href="https://www.instagram.com/aitor.sh">
+            <div class="i fab fa-instagram fa-2x"></div>
+          </a>
+        </div>
+
+        <footer>&copy;Copyright 2021</footer>
+      </section>
+    </main>
+    <script src="js/main.js"></script>
   </body>
 </html>
