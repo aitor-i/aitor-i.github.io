@@ -61,6 +61,7 @@
       }
       .projects__name {
         color: $primary-color;
+        @include transition-ease;
       }
     }
   }

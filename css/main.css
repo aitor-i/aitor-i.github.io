@@ -242,6 +242,7 @@
 }
 .projects_item:hover .projects__name {
   color: #272727;
+  transition: all 0.5s ease-in-out;
 }
 .projects__btns {
   position: absolute;
